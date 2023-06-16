@@ -5,7 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 from googleapiclient.discovery import build
 
-CREDENTIALS_FILE = '/cred.json'
+CREDENTIALS_FILE = '\cred.json'
 
 
 def get_service_sacc():
